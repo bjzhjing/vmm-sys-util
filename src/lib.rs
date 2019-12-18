@@ -19,6 +19,10 @@ pub mod file_traits;
 pub mod poll;
 pub mod rand;
 pub mod seek_hole;
+#[cfg(feature = "with-serde")]
+extern crate serde;
+#[cfg(feature = "with-serde")]
+extern crate serde_derive;
 pub mod signal;
 pub mod sock_ctrl_msg;
 pub mod tempdir;

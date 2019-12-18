@@ -1,3 +1,7 @@
+# Unreleased
+
+* Added conditionally compiled `serde` compatibility to `FamStructWrapper`.
+
 # v0.3.1
 
 * Advertise functionality for obtaining POSIX real time signal base which is
